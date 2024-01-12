@@ -1,4 +1,6 @@
-Shell script that simplifies the setup process for webpack projects - you can immediately start coding instead of spending hours fiddling with config files only to find nothing works because you accidentally installed "dev-server" instead of "devserver" (true story). 
+Can use this instead, although doesn't install or set up webpack-dev-server: https://createapp.dev/webpack/
+
+Shell script that simplifies the setup process for webpack projects - you can immediately start coding instead of spending hours fiddling with config files only to find nothing works because you accidentally installed "dev-server" instead of "webpack-dev-server" (true story). Or how about that time I installed "html-webpack-plugin" instead of "webpack-html-plugin"? Note to self: if unsure, check the npm registry to check when a package I'm installing was last updated and how popular it is. 
 
 Run the script from the terminal with `./webpack_init.sh` and provide a file path for the project to be created (e.g. `./webpack_init.sh /some-drive/some-folder/my-cool-project`).
 It will then run through all the usuall install scripts depending on what you select to be installed. 
